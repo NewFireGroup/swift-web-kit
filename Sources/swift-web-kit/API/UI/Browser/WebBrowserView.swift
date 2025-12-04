@@ -6,7 +6,7 @@
 //
 import SwiftUI
 import WebKit
-import swift_newfire_foundation
+import NFGFoundation
 
 public struct WebBrowserView: View {
     private var website: Website?
