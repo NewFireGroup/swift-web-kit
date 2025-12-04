@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "B093E2C7-FABC-44CD-8AF4-047DE39E2038",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "performanceAntipatternCheckerEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "SwiftWebKitTests",
+        "name" : "SwiftWebKitTests"
+      }
+    }
+  ],
+  "version" : 1
+}

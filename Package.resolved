@@ -1,0 +1,15 @@
+{
+  "originHash" : "9aa99a9de635fe602e880b6eba73d2b9be28a6017ef8c54b02eb3b2992f94a32",
+  "pins" : [
+    {
+      "identity" : "swift-newfire-foundation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/NewFireGroup/swift-newfire-foundation.git",
+      "state" : {
+        "revision" : "f580e937e8f9563c0bb220d735b033efd675d686",
+        "version" : "1.0.3"
+      }
+    }
+  ],
+  "version" : 3
+}
