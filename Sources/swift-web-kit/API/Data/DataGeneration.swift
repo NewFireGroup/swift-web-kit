@@ -4,7 +4,7 @@ import SwiftData
 import CoreData
 import OSLog
 
-private let logger = Logger(subsystem: Bundle.main.bundleIdentifier!, category: "DataSchema")
+private let logger = DataGenerationOptions.logger
   
 public extension DataGeneration {
     var requiresInitialDataGeneration: Bool {
