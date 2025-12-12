@@ -9,5 +9,4 @@
 
 public typealias WebsiteSchema = WebsiteSchemaV1
 
-public typealias DataGeneration = WebsiteSchemaV1.DataGeneration
 public typealias Website = WebsiteSchemaV1.Website

@@ -9,7 +9,7 @@ import WebKit
 import NFGFoundation
 
 public struct WebBrowserView: View {
-    private var website: Website?
+    private var website: (any Website)?
     
     public var body: some View {
         WebView(url: URL(string: website?.url ?? ""))
@@ -21,7 +21,7 @@ public struct WebBrowserView: View {
 //        }
     }
     
-    public init(_ website: Website? = nil) {
+    public init(_ website: (any Website)? = nil) {
         self.website = website
     }
 }
